@@ -1,0 +1,49 @@
+baseURL: http://example.com/
+languageCode: en-us
+title: creative pRoject
+theme: minimal
+disqusShortname: username
+googleAnalytics: ''
+params:
+  accent: red
+  author: zane Jones
+  backgroundColor: white
+  description: Website created in R with blogdown and Hugo
+  font: Raleway
+  githubUsername: '#'
+  highlight: yes
+  highlightLanguages:
+    - go
+    - haskell
+    - kotlin
+    - scala
+    - swift
+  highlightStyle: default
+  showBorder: yes
+menu:
+  icon:
+    - name: fas fa-envelope
+      url: mailto:zajo@umich.edu
+      weight: 1
+    - name: fab fa-github
+      url: https://github.com/zanemj/
+      weight: 2
+    - name: fab fa-twitter
+      url: https://twitter.com/zanezmj/
+      weight: 3
+    - name: fab fa-linkedin
+      url: https://www.linkedin.com/in/zane-m-jones/
+      weight: 4
+    - name: fab fa-stack-overflow
+      url: https://www.stackoverflow.com/username/
+      weight: 5
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: About
+      url: /about/
+      weight: 2
+    - name: Posts
+      url: /post/
+      weight: 3
